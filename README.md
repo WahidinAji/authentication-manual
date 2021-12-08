@@ -8,6 +8,7 @@
 git clone https://github.com/WahidinAji/authentication-manual.git
 cd authentication-manual
 composer install
+cp .env.example .env
 php artisan key:generate
 #don't fortget to setup db_name and other to connect to databases
 php artisan migrate --seed
