@@ -1,3 +1,18 @@
+## pre-req
+* PHP 7.4.19 (cli) (built: May  4 2021 14:24:38)
+* Laravel 7.30.6
+* Composer version 2.1.3
+
+### Installation
+```bash
+git clone https://github.com/WahidinAji/authentication-manual.git
+cd authentication-manual
+composer install
+php artisan key:generate
+#don't fortget to setup db_name and other to connect to databases
+php artisan migrate --seed
+```
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
