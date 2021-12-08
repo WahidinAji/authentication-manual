@@ -13,6 +13,8 @@ php artisan key:generate
 #don't fortget to setup db_name and other to connect to databases
 php artisan migrate --seed
 ```
+#### notes
+<p align="center">I'm just teach some students `how to build authenticatin manual in laravel 7 with roles`, they're my ex students as asistant lecturer. Certainly u're free to download this repo for ur project. have a good day guys xD</p>
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
